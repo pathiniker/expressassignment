@@ -1,0 +1,57 @@
+body {
+  background-color: tomato;
+  font-family: "Trebuchet MS", Arial;
+}
+
+h1 {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+.song-form {
+  background-color: white;
+  width: 75%;
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 10px 0 0 20px;
+}
+
+label {
+  font-size: 18px;
+  padding:  0 5px 10px 20px;
+}
+
+.field {
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 160px;
+
+}
+
+#submit {
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+}
+
+#songs {
+  list-style-type: none;
+}
+#songs li {
+  background-color: white;
+  border: 2px solid black;
+  padding-left: 20px;
+  width: 50%;
+  line-height: 10px;
+  border-radius: 15px;
+  margin-top: 30px
+}

@@ -33,9 +33,9 @@ function getSongs() {
       $('#songs').empty();
       songs.forEach(function(song){
         var $li = $('<li class=""></li>');
-        $li.append('<p>"'+ song.title + '"</p>');
-        $li.append('<p>by: '+ song.artist + '</p>');
-        $li.append('<p>Added on: '+ song.dateAdded + '</p>');
+        $li.append('<p><b>"'+ song.title + '"</b></p>');
+        $li.append('<p> &emsp;- '+ song.artist + '</p>');
+        $li.append('<p><i>Added on: '+ song.dateAdded + '</i></p>');
         $('#songs').append($li);
       });
 

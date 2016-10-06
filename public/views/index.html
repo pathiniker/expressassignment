@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="../style/style.css" />
 
     <!-- localhost:3000/js/client.js -->
     <script src="vendor/jquery/dist/jquery.min.js" charset="utf-8"></script>
@@ -13,20 +13,19 @@
     <h1>Favorite Songs</h1>
 
 
+    <form class="song-form">
     <h2>Add a new song:</h2>
-    <form>
-        <div class ="input-field">
-        <label>Title</label>
-        <input type="text" name="title"/>
-      </div>
+        <label>Title:</label>
+        <input class="field" type="text" name="title"/>
 
-      <div class ="input-field">
-      <label>Artist</label>
-      <input type="text" name="artist"/>
-      </div>
+
+
+      <label>Artist:</label>
+      <input class="field" type="text" name="artist" />
+
       <input type="submit" id="submit"/>
     </form>
-
+    <!-- <div id="column"></div> -->
     <ul id='songs'>
     </ul>
 
